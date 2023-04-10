@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-<h3><b>Morse Code</b></h3>
+<h3><b>School Library</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -26,35 +26,25 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Morse Code <a name="about-project"></a>
+# 📖 School Library <a name="about-project"></a>
 
-Morse Code is a CLI app write with ruby.
+School Library is a CLI app write with ruby.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-
-
 
 <details>
 <summary>Client</summary>
 <ul><li>Ruby</li></ul>
 </details>
 
-
-
-
-
-
-
 ### Key Features <a name="key-features"></a>
 
 
-
-- **Decode morse code**
-
-
+- **CRUD Book**
+- **OOP Design Patterns**
+- **List rents**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -63,8 +53,6 @@ Morse Code is a CLI app write with ruby.
 
 
 - **Live demo not available at this time**
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,7 +75,7 @@ Clone the repo, and install the dependencies
 
 Install this project with:
 ```sh
-bundle install
+bundle
 ```
 
 
@@ -100,12 +88,6 @@ To run the project, execute the following command:
 ruby main.rb
 ```
 
-
-
-
-
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
@@ -116,21 +98,12 @@ ruby main.rb
  - Twitter: [@oyhpnayiaw](https://twitter.com/oyhpnayiaw) 
  - LinkedIn: [@oyhpnayiaw](https://linkedin.com/in/oyhpnayiaw) 
 
- **Muhammad Talha Hanif**
-
-  - GitHub: [@githubhandle](https://github.com/Talha-Hanif5666)
-  - Twitter: [@twitterhandle](https://twitter.com/TalhaHa45039660?t=R4git6jFgsysI4xPxmN-ag&s=09)
-  - LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-talha-hanif-6b1355116)
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-
-- [ ] **Encode morse code**
-
+- [ ] **More Features**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -151,12 +124,7 @@ If you like this project or find it useful, please consider giving it a ⭐️. 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-My coding partner and Microverse
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
+Several people have helped me in the development of this project. I would like to thank them for their support and guidance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
