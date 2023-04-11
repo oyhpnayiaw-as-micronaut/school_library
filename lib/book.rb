@@ -7,12 +7,9 @@ class Book
     @rentals = []
   end
 
-  attr_accessor :title, :author
-  attr_reader :rentals
+  attr_accessor :title, :author, :rentals
 
-  def add_rental(rental)
-    return if !rental.is_a?(Rental) || rentals.include?(rental)
-
-    rentals << rental
+  def add_rental(person, date)
+    Rental.new(date, self, person)
   end
 end

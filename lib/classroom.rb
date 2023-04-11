@@ -12,7 +12,7 @@ class Classroom
   def add_student(student)
     return unless student.is_a?(Student)
 
-    students << student
+    @students << student
     student.classroom = self
   end
 end
