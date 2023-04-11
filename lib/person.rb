@@ -1,17 +1,19 @@
 require 'securerandom'
 
 require_relative 'nameable'
+require_relative 'rental'
 
 class Person < Nameable
   def initialize(age, name = 'Unknown', parent_permission: true)
+    super()
     @id = SecureRandom.uuid
     @name = name
     @age = age
     @parent_permission = parent_permission
-    super()
+    @rentals = []
   end
 
-  attr_accessor :name, :age
+  attr_accessor :name, :age, :rentals
   attr_reader :id
 
   def can_use_services?
@@ -20,6 +22,10 @@ class Person < Nameable
 
   def correct_name
     @name
+  end
+
+  def add_rental(book, date)
+    Rental.new(date, book, self)
   end
 
   private
